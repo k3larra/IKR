@@ -272,12 +272,12 @@ function onDocumentReady() {
   populate();
 }
 async function populate() {
-  let requestURL = '/trust_1/'+version+'/structure.json';
+  let requestURL = 'trust_1/'+version+'/structure.json';
   let request = new Request(requestURL);
   let response = await fetch(request);
   const structure = await response.json();
   set_globals(structure[study_nbr]);
-  requestURL = '/trust_1/imagenet_classes.txt';
+  requestURL = 'trust_1/imagenet_classes.txt';
   request = new Request(requestURL);
   response = await fetch(request);
   const imagenet_classes_csv = await response.text();
