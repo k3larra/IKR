@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <title>Trust 0</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="version07.js"></script>
+  <meta charset="utf-8">
+</head>
+<body>
+  <header>
+    <div class="row flex-nowrap g-0">
+      <div class="col-12 text-center" id="title">
+        <h3>Comparing ML-models</h3>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <div class="container justify-content-center" style="max-width: 970px;">
+      <!-- Original images -->
+      <section>
+      <div class="row flex-nowrap g-0 ">
+        <div class="col-3 col-pixel-width-100">
+        </div>
+        <div class="col-3 col-pixel-width-100">
+          <p class="text-center">Original image</p>
+        </div>
+        <div class="col-3 col-pixel-width-100">
+          <p class="text-center">Transformed image</p>
+        </div>
+        <div class="col-3 col-pixel-width-100">
+        </div>
+      </div>
+      <div class="row flex-nowrap g-0 ">
+        <div class="col-3 col-pixel-width-100">
+        </div>
+        <div class="col-3 col-pixel-width-100" id="org_image">
+        </div>
+        <div class="col-3 col-pixel-width-100" id="trans_image">
+        </div>
+        <div class="col-3 col-pixel-width-100">
+        </div>
+      </div>
+    </section>
+      <!-- Predictions -->
+    <section id="predictions"></section>
+    <section id="compare_models"></section>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.1.0/math.min.js" integrity="sha512-xOu54cGoQRU4PxCzB268p5N3MPvH4EHtoQjdw7y0qlkKyMvS5D9IsYFPP0NDtrky7SqBntN8cPtl0kx+UKrBgg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
